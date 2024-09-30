@@ -116,7 +116,7 @@ Use this if you cannot install with Homebrew or npm.
 First, clone this repository:
 
 ```sh
-$ git clone 'https://github.com/hyperupcall/autoenv' ~/.autoenv
+$ git clone -b main 'https://github.com/hyperupcall/autoenv' ~/.autoenv
 ```
 
 Then, execute one of the following to ensure autoenv is loaded when you open a terminal:
