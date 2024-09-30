@@ -136,7 +136,7 @@ $ printf '%s\n' "source ~/.autoenv/activate.sh" >> ~/.bash_profile
 
 ## Configuration
 
-_Before_ `source`ing `activate.sh`, you can set the following variables:
+_Before_ `source`ing `activate.sh`, you can set the following _shell variables_:
 
 - `AUTOENV_AUTH_FILE`: Files authorized to be sourced; defaults to `~/.autoenv_authorized` if it exists, otherwise, `~/.local/state/autoenv/authorized_list`
 - `AUTOENV_NOTAUTH_FILE`: Files not authorized to be sourced; defaults to `~/.autoenv_not_authorized` if it exists, otherwise, `~/.local/state/autoenv/not_authorized_list` (`master` branch only)
@@ -179,4 +179,4 @@ To update autoenv, see [`./docs/updating.md`](./docs/updating.md).
 
 ## Attributions
 
-Autoenv was originally created by [@kennethreitz](https://github.com/kennethreitz). Later, ownership was transfered to [@inishchith](https://github.com/inishchith). As of August 22nd, 2021, Edwin Kofler ([@hyperupcall](https://github.com/hyperupcall)) owns and maintains the project.
+Autoenv was originally created by [@kennethreitz](https://github.com/kennethreitz). Later, ownership was transfered to [@inishchith](https://github.com/inishchith). As of August 22nd, 2021, Edwin Kofler ([@hyperupcall](https://github.com/hyperupcall)) maintains the project.
